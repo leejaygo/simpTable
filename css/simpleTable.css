@@ -1,0 +1,19 @@
+.st_wrapper{
+	font-size: 15px;
+	font-family: "Microsoft Yahei";
+}
+.st_wrapper th{
+	background:#c7e2fd;
+}
+.st_wrapper td{
+	border:1px solid #CCC;
+}
+.st_wrapper input{
+	border:none;
+}
+.st-pagenum-wrap{
+	float:left;
+}
+.st-pagesel-wrap{
+	float:right;
+}
