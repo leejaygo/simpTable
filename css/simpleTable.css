@@ -4,16 +4,81 @@
 }
 .st_wrapper th{
 	background:#c7e2fd;
+	border-left:1px solid #c7e2fd;
+	border-top:1px solid #c7e2fd;
+	padding:10px 18px;
 }
 .st_wrapper td{
-	border:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	padding:10px 18px;
+}
+.st_wrapper table{
+	width:100%;
+	margin:10 auto;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	cursor:default;
 }
 .st_wrapper input{
 	border:none;
+	background-color: transparent;
+	width:100%;
+	height:100%;
 }
-.st-pagenum-wrap{
+.st_wrapper .st-pagenum-wrap{
 	float:left;
+	margin-bottom: 10px;
 }
-.st-pagesel-wrap{
+.st_wrapper .st-pagesel-wrap{
 	float:right;
+	margin-bottom: 10px;
 }
+
+.st_wrapper .st-infowrap{
+	margin-top: 10px;
+}
+
+.st_wrapper .st-odd{
+
+}
+
+.st_wrapper .st-even{
+	background:#999;
+}
+
+.st_wrapper .st-clear{
+	width:100%;
+	content: "";
+	clear:both;
+	zoom:1;
+}
+
+.st_wrapper select.st-pagenum{
+	width:4em;
+}
+.st_wrapper select.st-allpages{
+	width:4em;
+}
+.st_wrapper .st-fastpage{
+	float:right;
+	margin-top: 15px
+}
+.st_wrapper .st-fastpage span{
+	margin-left:15px;
+	cursor:pointer;
+}
+.st_wrapper span:first-child{
+	margin-left:0px;
+}
+
+.st_wrapper span:hover{
+	opacity: 0.5;
+}
+
+.st_wrapper span.disabledbtn{
+	opacity:0.5;
+}
+
+
+
